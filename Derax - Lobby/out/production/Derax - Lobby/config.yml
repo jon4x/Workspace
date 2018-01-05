@@ -1,0 +1,8 @@
+config:
+   mysql:
+      host: 127.0.0.1
+      database: database
+      user: user
+      password: password
+   snow:
+      enabled: false

@@ -1,0 +1,50 @@
+main: de.jon4x.lobby.Main
+name: LobbySystem
+version: 1.0
+author: jon4x
+description: LobbySystem Plugin!
+
+commands:
+   gm:
+      permission: gm.use
+      description: Set your gamemode!
+   build:
+      permission: build.use
+      description: Set your buildmode!
+   addcoins:
+      description: Add coins to a player!
+      permission: coins.use
+   rmcoins:
+      description: Remove coins of a player!
+      permission: coins.use
+   getcoins:
+      description: Get coins of a player!
+   getpos:
+      description: Get position of yourself!
+      permission: getpos.use
+   spawnvillager:
+      description: Spawn Dailyreward Villager!
+      permission: villager.use
+   giveaway:
+      description: Start a new giveaway!
+      permission: giveaway.use
+
+permissions:
+   manager:
+      children:
+         getpos.use: true
+         coins.use: true
+         gm.use: true
+         giveaway.use: true
+   admin:
+      children:
+         getpos.use: true
+         coins.use: true
+         gm.use: true
+         build.use: true
+         giveaway.use: true
+         villager.use: true
+   build.use:
+      default: false
+   coins.use:
+      default: false
