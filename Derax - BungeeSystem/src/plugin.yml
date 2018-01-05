@@ -1,0 +1,7 @@
+name: BungeeSystem
+author: jon4x
+main: de.jon4x.bungeesystem.Main
+version: 1.0
+
+commands:
+   help:

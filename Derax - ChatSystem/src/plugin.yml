@@ -1,0 +1,9 @@
+main: de.jon4x.chatsystem.main
+author: jon4x
+version: 1.0
+name: ChatSystem
+
+commands:
+   clearchat:
+      aliases: cc
+      description: Clears the chat!
