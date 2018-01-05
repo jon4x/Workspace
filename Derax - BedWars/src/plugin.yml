@@ -1,0 +1,13 @@
+name: BedWars
+version: 1.0
+author: jon4x
+main: de.jon4x.bedwars.main.Main
+depend: [MySQL]
+commands:
+  setup:
+     permission: admin
+  start:
+     permission: vip
+  stats:
+  forcemap:
+     permission: vip
